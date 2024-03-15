@@ -1,0 +1,32 @@
+﻿Scenario: Airport Management System
+In this scenario, let's consider an airport management system that facilitates the management of flights, passengers, airport facilities, airline companies, and staff.
+Entities:
+1. Flight: Represents each flight operated by airlines. Attributes may include flight number, departure airport, destination airport, departure time, arrival time, aircraft type, etc.
+2. Passenger: Represents individuals traveling on flights. Attributes may include passenger ID, name, date of birth, nationality, contact information, etc.
+3. Airport: Represents airports from which flights depart and arrive. Attributes may include airport code, name, location, facilities, etc.
+4. Airline: Represents airline companies operating flights. Attributes may include airline code, name, contact information, fleet size, etc.
+5. Staff: Represents airport personnel involved in various roles such as check-in staff, security personnel, ground crew, etc. Attributes may include staff ID, name, position, contact information, etc.
+Relationships:
+1. Flight-Departure-From-Airport: Each flight departs from one airport, and each airport can be the departure point for multiple flights (many-to-one relationship).
+2. Flight-Arrives-At-Airport: Each flight arrives at one airport, and each airport can be the arrival point for multiple flights (many-to-one relationship).
+3. Passenger-Boards-Flight: Each passenger can board multiple flights, and each flight can have multiple passengers (many-to-many relationship). This relationship is represented by an associative entity/table called "BoardingPass" or "PassengerFlight."
+4. Flight-Operated-By-Airline: Each flight is operated by one airline, and each airline can operate multiple flights (one-to-many relationship).
+5. Staff-Works-At-Airport: Each staff member works at one airport, and each airport can have multiple staff members working (one-to-many relationship).
+6. Staff-Assigned-To-Flight: Each staff member can be assigned to work on multiple flights, and each flight can have multiple staff members assigned to it (many-to-many relationship). This relationship may involve different roles such as cabin crew, pilots, etc., each with its own staffing requirements.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ER diagram.
