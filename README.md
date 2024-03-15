@@ -1,1 +1,1 @@
-# My-SQL_draw.
+Choose a real-world scenario for which you will create an ER diagram. This can be related to a business, organization, or any other domain that interests you. Ensure that your scenario includes multiple entities and relationships.
